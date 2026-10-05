@@ -13,7 +13,7 @@ export default function Index() {
       <Pressable style={styles.button} onPress={() => setCount(count + 1)}>
         <Text style={styles.buttonText}>Tapped {count} times</Text>
       </Pressable>
-      <Text style={styles.footer}>Made by Your Ramy</Text>
+      <Text style={styles.footer}>Made by Ramy</Text>
     </View>
   );
 }
